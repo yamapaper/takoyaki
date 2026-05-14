@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "cursolAction",
+    "maps": [
+        {
+            "name": "cursol",
+            "id": "1a84e2bf-0dd8-49d2-949f-5fdf3c6935e4",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "8d1a90cc-4a3c-4912-9710-acb0fd85d946",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "2d96be65-d139-45a4-bb49-ca5562880d10",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c6f8aa4d-41e5-47b5-8d7d-420d2666212a",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fea8d8b4-c05e-49e9-9c85-1bbbe0358438",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
